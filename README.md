@@ -11,7 +11,7 @@ Tested working (not just imported) on python 3.9-3.14 and cu130-cu133.
 ```bash
 pip install https://github.com/pekkAi-dev/llama-cpp-python-cu130-wheels/releases/latest/download/llama_cpp_python-0.3.40+cu130-py3-none-linux_x86_64.whl
 ```
-https://github.com/pekkAi-dev/llama-cpp-python-cu130-wheels/releases/download/0.3.40/llama_cpp_python-0.3.40+cu130-py3-none-linux_x86_64.whl
+
 All release assets are the same file, just with "cu13x" being different in name for easy "TL;DR -> Install" (i do it too, sometimes) and "cu13" so one can save locally and name is what it covers.
 
 Note: If on first import you get `libnccl.so.2: cannot open shared object file`, install NCCL from somewhere, these work:
